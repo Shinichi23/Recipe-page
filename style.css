@@ -1,0 +1,143 @@
+body {
+    
+    margin-left: 234px;
+    margin-right: 237px;
+}
+
+
+h1 {
+    font-family: 'Playfair Display';
+    font-weight: 700;
+    font-size: 48px;
+    width: 587px;
+    height: 64px;
+    margin-bottom: 5px;
+}
+
+#underTitle {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    justify-content: start;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.titleImg {
+    width: 13px;
+    height: 8px;
+    margin-top: 18px;
+}
+
+#titleText {
+    font-family: 'Montserrat';
+    font-style: italic;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #4F4F4F;
+    width: 592px;
+    height: 51px;
+}
+
+#cheesecake {
+    width: 969px;
+    height: 444px;
+    background: #C4C4C4;
+    border-radius: 12px;
+    margin-left: 0;
+}
+
+input[type=checkbox]{
+    width: 21px;
+    height: 21px;
+    border: 1px solid #828282;
+    border-radius: 4px;
+}
+
+ul {
+    list-style: none;
+    text-align: none;
+}
+
+ul li {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 15px;
+    justify-content: start;
+    margin-left:-40px;
+}
+
+.recipeTitle {
+    margin-left:-40px;
+    font-family: 'Playfair Display';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px; 
+}
+
+ol {
+    list-style: none;
+}
+ol li {
+    margin-bottom: 20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    margin-left:-40px;
+}
+
+.squareText {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 15px;
+}
+
+.square {
+    width: 36px;
+    height: 36px;
+    background: #F2994A;
+    border-radius: 6px;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+#card {
+    width: 216px;
+    height: 367px;
+    left: 984px;
+    top: 711px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    margin: auto;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.content {
+    display :flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+
