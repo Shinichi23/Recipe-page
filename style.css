@@ -2,6 +2,8 @@ body {
     
     margin-left: 234px;
     margin-right: 237px;
+    margin-bottom: 0;
+    min-height: 100vh;
 }
 
 
@@ -12,6 +14,14 @@ h1 {
     width: 587px;
     height: 64px;
     margin-bottom: 5px;
+}
+
+h3 {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
 }
 
 #underTitle {
@@ -117,27 +127,100 @@ ol li {
 #card {
     width: 216px;
     height: 367px;
-    left: 984px;
-    top: 711px;
     background: #FFFFFF;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
     border-radius: 12px;
     margin: auto;
     display: inline-flex;
     justify-content: center;
-    align-items: center;
     flex-direction: column;
+    align-items: center;
+    margin-top: 48px;
+    float: right;
+    margin-left: 200px;
 }
 
 .content {
-    display :flex;
-    justify-content: center;
+    display : inline-flex;
+    margin: auto;
     align-items: center;
+    gap: 14px;
+    width: 130px;
 }
 
+.cookTitle {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    text-transform: uppercase;
+    color: #BDBDBD;
+}
+
+.cookTime {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+
 #container {
-    display: grid;
-    grid-template-columns: auto auto;
+    display: flex;
+    /* flex-direction: column; */
+    width: 969px;
+    padding-bottom: 57px;
+}
+
+#recipe {
+    width: 550px;
+    float: left;
+}
+
+#menu {
+    color: #F2994A;
+}
+
+.material-symbols-outlined {
+    color:#4F4F4F;
+}
+
+.recipeSource {
+    font-family: 'Montserrat';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #BDBDBD;
+    padding-bottom: 93px;
+}
+
+footer {
+    text-align: center;
+    position: sticky;
+    margin-bottom: 24px;
+    color: #BDBDBD;
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 10px;
+    padding-top: 90px;  
+}
+
+.devChallenge {
+
+    text-decoration: none;
+    color: #BDBDBD;
+}
+
+a {
+    color: #BDBDBD;
+}
+
+#profile:hover {
+    color: black;
 }
 
 
