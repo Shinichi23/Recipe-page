@@ -6,7 +6,8 @@
 body {
     
     display: grid;
-    
+    justify-content: center;
+    align-items: center;
     margin-bottom: 0;
     min-height: 100vh;
 }
@@ -233,6 +234,9 @@ a {
   @media screen and (max-width: 768px)  {
     #card {
         float: none;
+    }
+    #recipe {
+        width: auto;
     }
 }
 
